@@ -11,14 +11,18 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <style>
-   body {
-       height:100%;
-   }
+    body {
+        height: 100%;
+    }
 
     img {
         width: 100%;
         margin-bottom: 20px;
         cursor: pointer;
+    }
+
+    main {
+        min-height: 70vh;
     }
 
     footer {
@@ -33,100 +37,100 @@
 
 <body>
     <!-- <nav class="navbar navbar-expand-sm" role="navigation" style="background-color:red;font-weight:bold;color:#ffffff;"> -->
-    <nav class="navbar navbar-dark bg-danger text-white font-weight-bolder navbar-expand-sm" role="navigation" >
+    <nav class="navbar navbar-dark bg-danger text-white font-weight-bolder navbar-expand-sm" role="navigation">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
-            aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- <a class="navbar-brand d-none d-sm-inline" href="#"> -->
-        <a class="navbar-brand" href="#"> 
-            <img src="assets/target.svg" alt="bullseye-logo" style="width:40px">
-        </a>
+                aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <a class="navbar-brand d-none d-sm-inline" href="#"> -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/target.svg" alt="bullseye-logo" style="width:40px">
+            </a>
 
-        
 
-        <div class="collapse navbar-collapse" id="myTogglerNav">
-            <div class="navbar-nav">
-                <!-- Categories Dropdown -->
-                <div class="dropdown">
-                    <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown"
-                        id="categoriesDropDown" aria-haspopup="true" aria-expanded="true" href="#">
-                        Categories
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="categoriesDropDown">
-                        <a class="dropdown-item" href="#">Women</a>
-                        <a class="dropdown-item" href="#">Men</a>
-                        <a class="dropdown-item" href="#">Young Adult</a>
-                        <a class="dropdown-item" href="#">Kids</a>
-                        <a class="dropdown-item" href="#">Baby</a>
-                        <a class="dropdown-item" href="#">Grooming</a>
-                        <a class="dropdown-item" href="#">Shoes</a>
-                        <a class="dropdown-item" href="#">Home</a>
-                        <a class="dropdown-item" href="#">Furniture</a>
-                        <a class="dropdown-item" href="#">Kitchen & Dining</a>
-                        <a class="dropdown-item" href="#">Patio & Garden</a>
-                        <a class="dropdown-item" href="#">Toys</a>
-                        <a class="dropdown-item" href="#">Electronics</a>
-                        <a class="dropdown-item" href="#">Video Games</a>
-                        <a class="dropdown-item" href="#">Movies, Music & Books</a>
-                        <a class="dropdown-item" href="#">Character Shop</a>
-                        <a class="dropdown-item" href="#">Sport & Outdoors</a>
-                        <a class="dropdown-item" href="#">Beauty</a>
-                        <a class="dropdown-item" href="#">Health</a><a class="dropdown-item" href="#">Grooming</a>
-                        <a class="dropdown-item" href="#">Household Essentials</a>
-                        <a class="dropdown-item" href="#">Pets</a>
-                        <a class="dropdown-item" href="#">Grocery</a>
-                        <a class="dropdown-item" href="#">School & Office Supplies</a>
-                        <a class="dropdown-item" href="#">Gift Cards</a>
-                        <a class="dropdown-item" href="#">Clearance</a>
-                    </div>
-                </div>
-                <!-- Deals Dropdown -->
-                <div class="dropdown">
-                    <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown" id="dealsDropdown"
-                        area-haspopup="true" aria-expanded="true" href="#">
-                        Deals
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dealsDropdown">
-                        <a class="dropdown-item" href="#">Clearance</a>
-                        <a class="dropdown-item" href="#">Weekly Ad</a>
-                        <a class="dropdown-item" href="#">Top Deals</a>
-                        <a class="dropdown-item" href="#">RadCard Exclusives</a>
-                        <a class="dropdown-item" href="#">Bulls-eye Circle Offers</a>
-                    </div>
-                </div>
-                <!-- What's New Dropdown -->
-                <div class="dropdown">
-                    <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown" id="whatsNewDropdown"
-                        aria-haspopup="true" aria-expanded="true" href="#">
-                        What's New
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="whatsNewDropdown">
-                        <a class="dropdown-item" href="#">#BullsEyeStyle</a>
-                        <a class="dropdown-item" href="#">New in Women's</a>
-                        <a class="dropdown-item" href="#">Women's Swimsuits</a>
-                        <a class="dropdown-item" href="#">New in Men's</a>
-                        <a class="dropdown-item" href="#">Men's Sportwear</a>
-                        <a class="dropdown-item" href="#">All in Motion</a>
-                        <a class="dropdown-item" href="#">Outdoor Living</a>
-                        <a class="dropdown-item" href="#">Hearth & Hand with Magnolia</a>
-                        <a class="dropdown-item" href="#">Spring Home Trends</a>
-                        <a class="dropdown-item" href="#">Bull's Eye Finds</a>
-                    </div>
 
-                </div>
-                <a class="nav-item nav-link text-reset href="#">Same Day Delivery</a>
-            </div><!-- navbar -->
+            <div class="collapse navbar-collapse" id="myTogglerNav">
+                <div class="navbar-nav">
+                    <!-- Categories Dropdown -->
+                    <div class="dropdown">
+                        <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown"
+                            id="categoriesDropDown" aria-haspopup="true" aria-expanded="true" href="#">
+                            Categories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="categoriesDropDown">
+                            <a class="dropdown-item" href="#">Women</a>
+                            <a class="dropdown-item" href="#">Men</a>
+                            <a class="dropdown-item" href="#">Young Adult</a>
+                            <a class="dropdown-item" href="#">Kids</a>
+                            <a class="dropdown-item" href="#">Baby</a>
+                            <a class="dropdown-item" href="#">Grooming</a>
+                            <a class="dropdown-item" href="#">Shoes</a>
+                            <a class="dropdown-item" href="#">Home</a>
+                            <a class="dropdown-item" href="#">Furniture</a>
+                            <a class="dropdown-item" href="#">Kitchen & Dining</a>
+                            <a class="dropdown-item" href="#">Patio & Garden</a>
+                            <a class="dropdown-item" href="#">Toys</a>
+                            <a class="dropdown-item" href="#">Electronics</a>
+                            <a class="dropdown-item" href="#">Video Games</a>
+                            <a class="dropdown-item" href="#">Movies, Music & Books</a>
+                            <a class="dropdown-item" href="#">Character Shop</a>
+                            <a class="dropdown-item" href="#">Sport & Outdoors</a>
+                            <a class="dropdown-item" href="#">Beauty</a>
+                            <a class="dropdown-item" href="#">Health</a><a class="dropdown-item" href="#">Grooming</a>
+                            <a class="dropdown-item" href="#">Household Essentials</a>
+                            <a class="dropdown-item" href="#">Pets</a>
+                            <a class="dropdown-item" href="#">Grocery</a>
+                            <a class="dropdown-item" href="#">School & Office Supplies</a>
+                            <a class="dropdown-item" href="#">Gift Cards</a>
+                            <a class="dropdown-item" href="#">Clearance</a>
+                        </div>
+                    </div>
+                    <!-- Deals Dropdown -->
+                    <div class="dropdown">
+                        <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown"
+                            id="dealsDropdown" area-haspopup="true" aria-expanded="true" href="#">
+                            Deals
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dealsDropdown">
+                            <a class="dropdown-item" href="#">Clearance</a>
+                            <a class="dropdown-item" href="#">Weekly Ad</a>
+                            <a class="dropdown-item" href="#">Top Deals</a>
+                            <a class="dropdown-item" href="#">RadCard Exclusives</a>
+                            <a class="dropdown-item" href="#">Bulls-eye Circle Offers</a>
+                        </div>
+                    </div>
+                    <!-- What's New Dropdown -->
+                    <div class="dropdown">
+                        <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown"
+                            id="whatsNewDropdown" aria-haspopup="true" aria-expanded="true" href="#">
+                            What's New
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="whatsNewDropdown">
+                            <a class="dropdown-item" href="#">#BullsEyeStyle</a>
+                            <a class="dropdown-item" href="#">New in Women's</a>
+                            <a class="dropdown-item" href="#">Women's Swimsuits</a>
+                            <a class="dropdown-item" href="#">New in Men's</a>
+                            <a class="dropdown-item" href="#">Men's Sportwear</a>
+                            <a class="dropdown-item" href="#">All in Motion</a>
+                            <a class="dropdown-item" href="#">Outdoor Living</a>
+                            <a class="dropdown-item" href="#">Hearth & Hand with Magnolia</a>
+                            <a class="dropdown-item" href="#">Spring Home Trends</a>
+                            <a class="dropdown-item" href="#">Bull's Eye Finds</a>
+                        </div>
+
+                    </div>
+                    <a class="nav-item nav-link text-reset href=" #">Same Day Delivery</a>
+                </div><!-- navbar -->
+            </div>
+
+
+            <form class="form-inline">
+                <input class="form-control mr-2 mt-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-light mt-2" type="submit">Go</button>
+            </form>
         </div>
 
-
-        <form class="form-inline">
-            <input class="form-control mr-2 mt-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-light mt-2" type="submit">Go</button>
-        </form>
-        </div>
-        
     </nav><!-- nav -->
     <main role="main" style="margin-top:40px;margin-bottom:20px;">
         <article role="article">
@@ -171,7 +175,9 @@
                     </div>
                 </div>
                 <div class=" d-flex justify-content-center align-content-end" style="margin-top:70px;">
-                    <h1>Shop Smart. <a href="#" title="Bull's Eye Home" style="font-style: italic;color:red;">On The Mark.<a><h1>
+                    <h1>Shop Smart. <a href="#" title="Bull's Eye Home" style="font-style: italic;color:red;">On The
+                            Mark.<a>
+                                <h1>
                 </div>
 
             </div>
@@ -179,8 +185,7 @@
         </article>
 
     </main>
-    <footer class="text-white font-weight-bolder bg-danger"
-        style="margin-top:20px; font-size:16px;">
+    <footer class="text-white font-weight-bolder bg-danger" style="margin-top:20px; font-size:16px;">
         <div class="container">
             <div class="d-flex flex-row justify-content-center" style="margin-bottom:10px;">
                 <a class="text-reset footer-menu" href="#" title="Image Attributions">Help</a>
@@ -188,11 +193,13 @@
                 <a class="text-reset footer-menu" href="#" title="Image Attributions">App</a>
                 <a class="text-reset footer-menu" href="#" title="Image Attributions">Social</a>
                 <a class="text-reset footer-menu" href="#" title="Image Attributions">Contact</a>
-                <a class="text-reset footer-menu" href="image-attributions.html" title="Image Attributions">Attributions</a>
+                <a class="text-reset footer-menu" href="image-attributions.html"
+                    title="Image Attributions">Attributions</a>
             </div>
             <div class="d-flex justify-content-center">
                 <a href="index.html" title="bullseye-logo">
-                    <img src="assets/target.svg" alt="bullseye-logo" style="width:40px;margin-right:50px; margin-left:20px;" >
+                    <img src="assets/target.svg" alt="bullseye-logo"
+                        style="width:40px;margin-right:50px; margin-left:20px;">
                 </a>
             </div>
         </div>
