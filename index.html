@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Bootstrap Dropdown</title>
+</head>
+<style>
+   body {
+       height:100%;
+   }
+
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+
+    .footer-menu {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+</style>
+
+<body>
+    <!-- <nav class="navbar navbar-expand-sm" role="navigation" style="background-color:red;font-weight:bold;color:#ffffff;"> -->
+    <nav class="navbar navbar-dark bg-danger text-white font-weight-bolder navbar-expand-sm" role="navigation" >
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+            aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <a class="navbar-brand d-none d-sm-inline" href="#"> -->
+        <a class="navbar-brand" href="#"> 
+            <img src="https://image.flaticon.com/icons/svg/1694/1694364.svg" alt="bullseye-logo" style="width:40px">
+        </a>
+
+        
+
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                <!-- Categories Dropdown -->
+                <div class="dropdown">
+                    <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown"
+                        id="categoriesDropDown" aria-haspopup="true" aria-expanded="true" href="#">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="categoriesDropDown">
+                        <a class="dropdown-item" href="#">Women</a>
+                        <a class="dropdown-item" href="#">Men</a>
+                        <a class="dropdown-item" href="#">Young Adult</a>
+                        <a class="dropdown-item" href="#">Kids</a>
+                        <a class="dropdown-item" href="#">Baby</a>
+                        <a class="dropdown-item" href="#">Grooming</a>
+                        <a class="dropdown-item" href="#">Shoes</a>
+                        <a class="dropdown-item" href="#">Home</a>
+                        <a class="dropdown-item" href="#">Furniture</a>
+                        <a class="dropdown-item" href="#">Kitchen & Dining</a>
+                        <a class="dropdown-item" href="#">Patio & Garden</a>
+                        <a class="dropdown-item" href="#">Toys</a>
+                        <a class="dropdown-item" href="#">Electronics</a>
+                        <a class="dropdown-item" href="#">Video Games</a>
+                        <a class="dropdown-item" href="#">Movies, Music & Books</a>
+                        <a class="dropdown-item" href="#">Character Shop</a>
+                        <a class="dropdown-item" href="#">Sport & Outdoors</a>
+                        <a class="dropdown-item" href="#">Beauty</a>
+                        <a class="dropdown-item" href="#">Health</a><a class="dropdown-item" href="#">Grooming</a>
+                        <a class="dropdown-item" href="#">Household Essentials</a>
+                        <a class="dropdown-item" href="#">Pets</a>
+                        <a class="dropdown-item" href="#">Grocery</a>
+                        <a class="dropdown-item" href="#">School & Office Supplies</a>
+                        <a class="dropdown-item" href="#">Gift Cards</a>
+                        <a class="dropdown-item" href="#">Clearance</a>
+                    </div>
+                </div>
+                <!-- Deals Dropdown -->
+                <div class="dropdown">
+                    <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown" id="dealsDropdown"
+                        area-haspopup="true" aria-expanded="true" href="#">
+                        Deals
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dealsDropdown">
+                        <a class="dropdown-item" href="#">Clearance</a>
+                        <a class="dropdown-item" href="#">Weekly Ad</a>
+                        <a class="dropdown-item" href="#">Top Deals</a>
+                        <a class="dropdown-item" href="#">RadCard Exclusives</a>
+                        <a class="dropdown-item" href="#">Bulls-eye Circle Offers</a>
+                    </div>
+                </div>
+                <!-- What's New Dropdown -->
+                <div class="dropdown">
+                    <a class="nav-item nav-link text-reset dropdown-toggle" data-toggle="dropdown" id="whatsNewDropdown"
+                        aria-haspopup="true" aria-expanded="true" href="#">
+                        What's New
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="whatsNewDropdown">
+                        <a class="dropdown-item" href="#">#BullsEyeStyle</a>
+                        <a class="dropdown-item" href="#">New in Women's</a>
+                        <a class="dropdown-item" href="#">Women's Swimsuits</a>
+                        <a class="dropdown-item" href="#">New in Men's</a>
+                        <a class="dropdown-item" href="#">Men's Sportwear</a>
+                        <a class="dropdown-item" href="#">All in Motion</a>
+                        <a class="dropdown-item" href="#">Outdoor Living</a>
+                        <a class="dropdown-item" href="#">Hearth & Hand with Magnolia</a>
+                        <a class="dropdown-item" href="#">Spring Home Trends</a>
+                        <a class="dropdown-item" href="#">Bull's Eye Finds</a>
+                    </div>
+
+                </div>
+                <a class="nav-item nav-link text-reset href="#">Same Day Delivery</a>
+            </div><!-- navbar -->
+        </div>
+
+
+        <form class="form-inline">
+            <input class="form-control mr-2 mt-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-light mt-2" type="submit">Go</button>
+        </form>
+        </div>
+        
+    </nav><!-- nav -->
+    <main role="main" style="margin-top:40px;margin-bottom:20px;">
+        <article role="article">
+            <div class="square-container container">
+                <div class="square-row-1 row row-cols-1 row-cols-sm-2 row-cols-md-4 row justify-content-center">
+                    <div class="square col">
+                        <img
+                            src="https://image.freepik.com/free-photo/close-up-person-holding-up-colourful-sweaters_23-2148246474.jpg">
+                    </div>
+                    <div class="square col">
+                        <img
+                            src="https://image.freepik.com/free-photo/sport-composition-with-modern-elements_23-2147914166.jpg">
+                    </div>
+                    <div class="square col">
+                        <img
+                            src="https://image.freepik.com/free-photo/group-three-male-friends-standing-together-against-white-wall_23-2148160170.jpg">
+
+                    </div>
+                    <div class="square col-2">
+                        <img
+                            src="https://image.freepik.com/free-photo/woman-green-dress-hat-yellow-background_1303-10554.jpg">
+                    </div>
+
+                    <div class="square col-2">
+                        <img
+                            src="https://image.freepik.com/free-photo/laptop-with-tablet-smartphone-table_23-2148037006.jpg">
+
+                    </div>
+                    <div class="square col-2">
+                        <img
+                            src="https://image.freepik.com/free-photo/top-view-wooden-kids-toys-with-copy-space_23-2148251528.jpg">
+
+                    </div>
+                    <div class="square col-2">
+                        <img
+                            src="https://image.freepik.com/free-photo/portrait-beautiful-young-asian-women-smile-happy-bed_74190-10069.jpg">
+
+                    </div>
+                    <div class="square col-2">
+                        <img
+                            src="https://image.freepik.com/free-photo/happy-young-couple-placing-yellow-sofa-living-room_23-2148095448.jpg">
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center align-content-end" style="margin-top:70px;">
+                    <h1>Shop Smart, <a href="#" title="Bull's Eye Home" style="font-style: italic;color:red;">on the
+                            mark<a><h1>
+                </div>
+
+            </div>
+
+        </article>
+
+    </main>
+    <footer class="text-white font-weight-bolder bg-danger"
+        style="margin-top:20px; font-size:16px;">
+        <div class="container">
+            <div class="d-flex flex-row justify-content-center" style="margin-bottom:10px;">
+                <a class="text-reset footer-menu" href="#" title="Image Attributions">Help</a>
+                <a class="text-reset footer-menu" href="image-attribution.html" title="Image Attributions">Stores</a>
+                <a class="text-reset footer-menu" href="#" title="Image Attributions">App</a>
+                <a class="text-reset footer-menu" href="#" title="Image Attributions">Social</a>
+                <a class="text-reset footer-menu" href="#" title="Image Attributions">Contact</a>
+                <a class="text-reset footer-menu" href="image-attributions.html" title="Image Attributions">Attributions</a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="index.html" title="bullseye-logo">
+                    <img src="https://image.flaticon.com/icons/svg/1694/1694364.svg" alt="bullseye-logo" style="width:40px;margin-right:50px; margin-left:20px;" >
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
