@@ -39,6 +39,10 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    /* .contact-form{
+        background: rgba(255,255,255,0.6);
+    } */
 </style>
 
 <body>
@@ -141,57 +145,34 @@
 
     </nav><!-- nav -->
     <main role="main" style="margin-top:40px;margin-bottom:20px;">
-        <article role="article">
-            <div class="square-container container">
-                <div class="square-row-1 row row-cols-1 row-cols-sm-2 row-cols-md-4 row justify-content-center">
-                    <div class="square col">
-                        <img
-                            src="https://image.freepik.com/free-photo/wooden-background-with-accessories_23-2147609641.jpg">
-                    </div>
-                    <div class="square col">
-                        <img
-                            src="https://image.freepik.com/free-photo/sport-composition-with-modern-elements_23-2147914166.jpg">
-                    </div>
-                    <div class="square col">
-                        <img
-                            src="https://image.freepik.com/free-photo/group-three-male-friends-standing-together-against-white-wall_23-2148160170.jpg">
+        <div class="container contact-form bg-info text-light px-4 py-3">
+            <article role="article">
+                <h2>Contact Us</h2>
 
-                    </div>
-                    <div class="square col-2">
-                        <img
-                            src="https://image.freepik.com/free-photo/woman-green-dress-hat-yellow-background_1303-10554.jpg">
-                    </div>
-
-                    <div class="square col-2">
-                        <img
-                            src="https://image.freepik.com/free-photo/laptop-with-tablet-smartphone-table_23-2148037006.jpg">
-
-                    </div>
-                    <div class="square col-2">
-                        <img
-                            src="https://image.freepik.com/free-photo/top-view-wooden-kids-toys-with-copy-space_23-2148251528.jpg">
-
-                    </div>
-                    <div class="square col-2">
-                        <img
-                            src="https://image.freepik.com/free-photo/portrait-beautiful-young-asian-women-smile-happy-bed_74190-10069.jpg">
-
-                    </div>
-                    <div class="square col-2">
-                        <img
-                            src="https://image.freepik.com/free-photo/happy-young-couple-placing-yellow-sofa-living-room_23-2148095448.jpg">
-                    </div>
-                </div>
-                <div class=" d-flex justify-content-center align-content-end" style="margin-top:70px;">
-                    <h1>Shop Smart. <a href="#" title="Bull's Eye Home" style="font-style: italic;color:red;">On The
-                            Mark.<a>
-                                <h1>
-                </div>
-
-            </div>
-
-        </article>
-
+                <form>
+                    <fieldset class="form-group">
+                        <div class="form-group">
+                            <label class="form-control-label" for="name">Name</label>
+                            <input class="form-control" type="text" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label" for="email">Email</label>
+                            <input class="form-control" type="email" id="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label" for="phone">Phone</label>
+                            <input class="form-control" type="email" id="email" placeholder="Enter Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                    </fieldset><!-- fieldset -->
+                    <button class="btn btn-warning" type="submit">Submit</button>
+                </form>
+            </article>
+        </div><!-- container -->
+    
     </main>
     <footer class="text-white font-weight-bolder bg-danger" style="margin-top:20px; font-size:16px;">
         <div class="container">
@@ -200,7 +181,7 @@
                 <a class="text-reset footer-menu" href="image-attribution.html" title="Image Attributions">Stores</a>
                 <a class="text-reset footer-menu" href="#" title="Image Attributions">App</a>
                 <a class="text-reset footer-menu" href="#" title="Image Attributions">Social</a>
-                <a class="text-reset footer-menu" href="contact.html" title="Image Attributions">Contact</a>
+                <a class="text-reset footer-menu" href="#" title="Image Attributions">Contact</a>
                 <a class="text-reset footer-menu" href="image-attributions.html"
                     title="Image Attributions">Attributions</a>
             </div>
