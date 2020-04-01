@@ -9,41 +9,9 @@
     <title>Bullseye: Shop Smart. On The Mark.</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css" />
 </head>
-<style>
-    body {
-        height: 100%;
-        background: url(assets/bullseye-background.svg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-       
-    }
 
-    img {
-        width: 100%;
-        margin-bottom: 20px;
-        cursor: pointer;
-    }
-
-    main {
-        min-height: 70vh;
-    }
-
-    footer {
-        padding-top: 30px;
-    }
-
-    .footer-menu {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    /* .contact-form{
-        background: rgba(255,255,255,0.6);
-    } */
-</style>
 
 <body>
     <!-- <nav class="navbar navbar-expand-sm" role="navigation" style="background-color:red;font-weight:bold;color:#ffffff;"> -->
@@ -172,18 +140,48 @@
                 </form>
             </article>
         </div><!-- container -->
-    
+
     </main>
     <footer class="text-white font-weight-bolder bg-danger" style="margin-top:20px; font-size:16px;">
         <div class="container">
             <div class="d-flex flex-row justify-content-center" style="margin-bottom:10px;">
-                <a class="text-reset footer-menu" href="#" title="Image Attributions">Help</a>
-                <a class="text-reset footer-menu" href="image-attribution.html" title="Image Attributions">Stores</a>
-                <a class="text-reset footer-menu" href="#" title="Image Attributions">App</a>
-                <a class="text-reset footer-menu" href="#" title="Image Attributions">Social</a>
-                <a class="text-reset footer-menu" href="#" title="Image Attributions">Contact</a>
-                <a class="text-reset footer-menu" href="image-attributions.html"
-                    title="Image Attributions">Attributions</a>
+                <div class="dropup">
+                    <a class="footer-menu btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                    </a>
+                </div>
+                <div class="dropup">
+                    <a class="footer-menu btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Stores
+                    </a>
+                </div>
+                <div class="dropup">
+                    <a class="footer-menu btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        App
+                    </a>
+                </div>
+                <div class="dropup">
+                    <a class="footer-menu btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social
+                    </a>
+                </div>
+                <div class="dropup">
+                    <a class="footer-menu btn btn-danger dropdown-toggle" href="contact.html" role="button" id="contactDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="contactDropdown">
+                        <a class="dropdown-item" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+                <div class="dropup">
+                    <a class="footer-menu btn btn-danger dropdown-toggle" href="#" role="button" id="attributionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Attributions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="attributionDropdown">
+                        <a class="dropdown-item" href="image-attributions.html">Image Attributions</a>
+                    </div>
+                </div>
+                
             </div>
             <div class="d-flex justify-content-center">
                 <a href="index.html" title="bullseye-logo">
